@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sysagenda.css">
+    <link rel="stylesheet" href="libs/MaterialDesign/css/materialdesignicons.css">
+    <link rel="stylesheet" href="libs/sweetalert2/dist/sweetalert2.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a href="main.html" class="navbar-brand text-white">SysAgenda</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-book-open"></i> Contatos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item add-contato"><i class="mdi mdi-account-plus"></i> Adicionar</a>
+                        <a class="dropdown-item ctr-contato"><i class="mdi mdi-view-list"></i>Gerenciar</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <a class="dropdown-toggle text-white" id="menu-usuario" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="menu-usuario" id="menu-usuario-item">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div id="conteudo" class="container mt-5">
+        <div class="row border-bottom">
+            <div class="col-12">
+                <h1 class="text-primary">Sistema interativo para agenda de contatos</h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-6 col-md-2">
+                <button class="btn btn-primary btn-block text-center add-contato">
+                        <h2><i class="mdi mdi-account-plus"></i></h2>
+                        <p>Adicionar</p>
+                </button>
+            </div>
+            <div class="col-6 col-md-2">
+                <button class="btn btn-primary btn-block text-center ctr-contato">
+                        <h2><i class="mdi mdi-view-list"></i></h2>
+                        <p>Gerenciar</p>
+                </button>
+            </div>
+        </div>
+        <div class="row border-top mt-3">
+            <div class="col-12">
+                <p class="text-primary">Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="libs/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="js/function-menu.js"></script>
+    <script src="usuario/controle/nav-usuario.js"></script>
+</body>
+
+</html>

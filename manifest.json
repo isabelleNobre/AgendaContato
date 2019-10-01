@@ -1,0 +1,106 @@
+{
+    "dir": "ltr",
+    "lang": "Portuguese",
+    "name": "AgendaContato",
+    "scope": "./",
+    "display": "fullscreen",
+    "start_url": "./",
+    "short_name": "AgendaContato",
+    "theme_color": "#e74c3c",
+    "description": "Sistema de agenda para cadastramento de contatos",
+    "orientation": "any",
+    "background_color": "#e17055",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [{
+            "src": "img/users.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "img/users.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
